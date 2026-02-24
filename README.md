@@ -1,2 +1,2 @@
-# TuHocCode_C-
-I'm too lazy
+# TuHocCode_C++
+I'm so lazy
