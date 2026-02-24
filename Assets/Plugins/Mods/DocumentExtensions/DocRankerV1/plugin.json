@@ -1,0 +1,9 @@
+{
+  "id": "doc.ranker.v1",
+  "name": "Document Ranker",
+  "version": "1.0.0",
+  "target": "DocumentExtensions",
+  "entry": "DocRanker.EntryPoint",
+  "description": "Xếp hạng tài liệu cho tìm kiếm và chatbot.",
+  "enabled": true
+}

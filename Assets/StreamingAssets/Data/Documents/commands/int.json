@@ -1,0 +1,43 @@
+{
+  "id": "cmd_int",
+  "command": "int",
+  "title": "Lệnh int trong C++",
+  "content": {
+    "what_it_does": "int dùng để khai báo biến kiểu số nguyên.",
+    "origin": "int xuất phát từ ngôn ngữ C và được kế thừa trong C++.",
+    "examples": [
+      {
+        "title": "Ví dụ 1",
+        "code": "int a = 10;\ncout << a;",
+        "explanation": "Khai báo biến nguyên và in ra màn hình."
+      },
+      {
+        "title": "Ví dụ 2",
+        "code": "int x = 3, y = 7;\ncout << x + y;",
+        "explanation": "Khai báo hai biến int và in tổng."
+      }
+    ],
+    "combinations": [
+      "const int MAX = 100;",
+      "unsigned int n = 42;",
+      "for (int i = 0; i < 10; i++)"
+    ],
+    "notes": [
+      "Cần lưu ý phạm vi giá trị của int theo nền tảng."
+    ],
+    "avoid_when": [
+      "Không dùng int cho số thực.",
+      "Không dùng int khi chắc chắn vượt giới hạn kiểu int."
+    ],
+    "use_when": [
+      "Nên dùng int cho số nguyên phổ thông.",
+      "Nên dùng int cho biến đếm vòng lặp."
+    ],
+    "popularity": {
+      "score": 98,
+      "level": "Rất phổ biến"
+    }
+  },
+  "tags": ["int", "so nguyen", "cpp basic"],
+  "related_commands": ["long", "unsigned", "for"]
+}
