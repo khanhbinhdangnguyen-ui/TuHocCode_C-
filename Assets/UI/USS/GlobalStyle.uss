@@ -1,0 +1,31 @@
+* {
+  -unity-font-definition: resource("Fonts/LegacyRuntime.ttf");
+  color: #d6deeb;
+}
+
+#root {
+  background-color: #0d1117;
+}
+
+#sidebar {
+  background-color: #161b22;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
+Button {
+  margin-bottom: 6px;
+}
+
+#chat-fab {
+  background-color: #238636;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat-panel {
+  background-color: #1f2937;
+  padding: 8px;
+}

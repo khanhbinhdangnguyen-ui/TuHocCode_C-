@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:VisualElement name="root" style="flex-direction: row; flex-grow: 1;">
+    <ui:VisualElement name="sidebar" style="width: 220px;">
+      <ui:Button name="nav-document" text="Tài liệu" />
+      <ui:Button name="nav-practice" text="Bài tập" />
+      <ui:Button name="nav-score" text="Điểm số" />
+      <ui:Label name="score-value" text="0/100" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="content" style="flex-grow: 1;">
+      <ui:VisualElement name="tab-document" class="app-tab">
+        <ui:TextField name="document-search" label="Tìm lệnh" />
+        <ui:Label name="document-result" text="Nhập từ khóa để tìm tài liệu" />
+      </ui:VisualElement>
+      <ui:VisualElement name="tab-practice" class="app-tab">
+        <ui:Label text="Practice view" />
+      </ui:VisualElement>
+      <ui:VisualElement name="tab-score" class="app-tab">
+        <ui:Label text="Score view" />
+      </ui:VisualElement>
+    </ui:VisualElement>
+
+    <ui:VisualElement name="chat-fab" style="position: absolute; left: 16px; bottom: 16px; width: 48px; height: 48px;">
+      <ui:Label text="💬" />
+    </ui:VisualElement>
+    <ui:VisualElement name="chat-panel" style="position: absolute; left: 80px; bottom: 16px; width: 360px; height: 240px;">
+      <ui:TextField name="chat-input" label="Hỏi chatbot" />
+      <ui:Label name="chat-output" text="Xin chào!" />
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

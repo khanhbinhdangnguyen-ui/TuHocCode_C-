@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "documents": [
+    {
+      "id": "cmd_int",
+      "command": "int",
+      "title": "Lệnh int trong C++",
+      "tags": ["int", "so nguyen", "cpp basic"],
+      "difficulty": 1,
+      "file": "commands/int.json"
+    }
+  ]
+}
